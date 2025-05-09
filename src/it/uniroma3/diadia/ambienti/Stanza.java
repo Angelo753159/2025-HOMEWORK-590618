@@ -113,6 +113,9 @@ public class Stanza {
         }
     }
 
+   public int getNumeroAttrezzi() {
+	   return numeroAttrezzi;
+   }
    /**
 	* Restituisce una rappresentazione stringa di questa stanza,
 	* stampadone la descrizione, le uscite e gli eventuali attrezzi contenuti
